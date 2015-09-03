@@ -42,6 +42,9 @@
     tab.tintColor = darkgreen;
     self.window.rootViewController = tab;
     [self.window makeKeyAndVisible];
+    UINavigationBar *bar = [UINavigationBar appearance];
+    bar.translucent = NO;
+    bar.tintColor = darkgreen;
     return YES;
 }
 @end

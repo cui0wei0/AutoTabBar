@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		42A1456F1B989D95007D46CA /* ccNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A1456E1B989D95007D46CA /* ccNavigationController.m */; settings = {ASSET_TAGS = (); }; };
 		42A7BF881B97A58900702A0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A7BF871B97A58900702A0A /* main.m */; };
 		42A7BF8B1B97A58900702A0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A7BF8A1B97A58900702A0A /* AppDelegate.m */; };
 		42A7BF8E1B97A58900702A0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A7BF8D1B97A58900702A0A /* ViewController.m */; };
@@ -42,6 +43,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		42A1456D1B989D95007D46CA /* ccNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ccNavigationController.h; sourceTree = "<group>"; };
+		42A1456E1B989D95007D46CA /* ccNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ccNavigationController.m; sourceTree = "<group>"; };
 		42A7BF831B97A58900702A0A /* AutoTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		42A7BF871B97A58900702A0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		42A7BF891B97A58900702A0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -136,6 +139,8 @@
 				42A7BF8C1B97A58900702A0A /* ViewController.h */,
 				42A7BF8D1B97A58900702A0A /* ViewController.m */,
 				42A7BF8F1B97A58900702A0A /* Main.storyboard */,
+				42A1456D1B989D95007D46CA /* ccNavigationController.h */,
+				42A1456E1B989D95007D46CA /* ccNavigationController.m */,
 				42A7BF921B97A58900702A0A /* Assets.xcassets */,
 				42A7BF941B97A58900702A0A /* LaunchScreen.storyboard */,
 				42A7BF971B97A58900702A0A /* Info.plist */,
@@ -324,6 +329,7 @@
 				42A7BFCE1B97A5E400702A0A /* twoTableViewController.m in Sources */,
 				42A7BFC11B97A5A400702A0A /* ccTabbar.m in Sources */,
 				42A7BFCC1B97A5E400702A0A /* oneTableViewController.m in Sources */,
+				42A1456F1B989D95007D46CA /* ccNavigationController.m in Sources */,
 				42A7BFC01B97A5A400702A0A /* ccAutoTaBbarController.m in Sources */,
 				42A7BF881B97A58900702A0A /* main.m in Sources */,
 				42A7BFC21B97A5A400702A0A /* ccTabbarButton.m in Sources */,
@@ -550,6 +556,7 @@
 				42A7BFB21B97A58900702A0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42A7BFB31B97A58900702A0A /* Build configuration list for PBXNativeTarget "AutoTabBarTests" */ = {
 			isa = XCConfigurationList;
@@ -558,6 +565,7 @@
 				42A7BFB51B97A58900702A0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		42A7BFB61B97A58900702A0A /* Build configuration list for PBXNativeTarget "AutoTabBarUITests" */ = {
 			isa = XCConfigurationList;
@@ -566,6 +574,7 @@
 				42A7BFB81B97A58900702A0A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
